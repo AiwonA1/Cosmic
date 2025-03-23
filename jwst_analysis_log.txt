@@ -1,0 +1,195 @@
+JWST Analysis Log
+=====================
+Analysis ID: 257076b1-8016-4797-8f68-b734141a081f
+Start Time: 2025-03-23T08:27:24.583159
+End Time: 2025-03-23T08:42:38.503473
+Input Files: jw02736007001_03101_00001_nrs1_cal.fits, jw02736007001_03101_00001_nrs2_cal.fits
+
+Key Accomplishments:
+-------------------
+- 2025-03-23T08:27:24.583268: Analysis started
+- 2025-03-23T08:27:24.658319: Successfully read jw02736007001_03101_00001_nrs1_cal.fits
+- 2025-03-23T08:27:24.701202: Successfully read jw02736007001_03101_00001_nrs2_cal.fits
+- 2025-03-23T08:27:25.456353: Successfully extracted data
+  * data_shapes: ['(512, 512)', '(512, 512)']
+- 2025-03-23T08:27:29.311596: Generated data visualizations
+  * filenames: ['jwst_data_visualization_NRS1.png', 'jwst_data_visualization_NRS2.png']
+- 2025-03-23T08:27:29.311655: Starting Control LLM analysis
+- 2025-03-23T08:27:29.339277: Control LLM analysis complete, found 3 patterns
+  * pattern_count: 3
+- 2025-03-23T08:27:29.339765: Starting Fractal LLM analysis
+- 2025-03-23T08:35:03.256377: Fractal LLM analysis complete, found 1 patterns
+  * pattern_count: 1
+- 2025-03-23T08:35:03.258204: Starting Hybrid LLM analysis
+- 2025-03-23T08:35:03.258289: Hybrid LLM analysis complete, found 1 patterns
+  * pattern_count: 1
+- 2025-03-23T08:35:03.258322: Starting Control LLM analysis
+- 2025-03-23T08:35:03.291020: Control LLM analysis complete, found 11 patterns
+  * pattern_count: 11
+- 2025-03-23T08:35:03.291200: Starting Fractal LLM analysis
+- 2025-03-23T08:42:38.502312: Fractal LLM analysis complete, found 1 patterns
+  * pattern_count: 1
+- 2025-03-23T08:42:38.502998: Starting Hybrid LLM analysis
+- 2025-03-23T08:42:38.503103: Hybrid LLM analysis complete, found 1 patterns
+  * pattern_count: 1
+- 2025-03-23T08:42:38.503343: Cross-detector analysis complete, found 0 patterns
+  * cross_detector_patterns: 0
+- 2025-03-23T08:42:38.503436: Pattern detection complete
+  * total_patterns: 18
+  * regular_patterns: 15
+  * novel_patterns: 3
+
+Detected Patterns:
+-----------------
+- Extended Source 1 (via CONTROL, detector: NRS1)
+  Location: (451.4, 239.8)
+  Confidence: 0.5004876143354493
+  Properties:
+    * area: 41.0
+    * mean_intensity: 13.48254108428955
+    * max_intensity: 14.217235565185547
+    * is_point_source: False
+- Extended Source 2 (via CONTROL, detector: NRS1)
+  Location: (439.0, 255.0)
+  Confidence: 0.5005321866877172
+  Properties:
+    * area: 17.0
+    * mean_intensity: 13.777756690979004
+    * max_intensity: 14.406584739685059
+    * is_point_source: False
+- Point Source 1 (via CONTROL, detector: NRS2)
+  Location: (128.0, 31.0)
+  Confidence: 0.5135320382066583
+  Properties:
+    * area: 3.0
+    * mean_intensity: 6.429249286651611
+    * max_intensity: 9.624646186828613
+    * is_point_source: True
+- Extended Source 2 (via CONTROL, detector: NRS2)
+  Location: (155.5, 45.0)
+  Confidence: 0.5050618366724221
+  Properties:
+    * area: 10.0
+    * mean_intensity: 3.6330440044403076
+    * max_intensity: 4.626158237457275
+    * is_point_source: False
+- Point Source 3 (via CONTROL, detector: NRS2)
+  Location: (86.2, 74.0)
+  Confidence: 0.5114849244352273
+  Properties:
+    * area: 4.0
+    * mean_intensity: 4.621500492095947
+    * max_intensity: 8.416590690612793
+    * is_point_source: True
+- Extended Source 4 (via CONTROL, detector: NRS2)
+  Location: (173.5, 99.0)
+  Confidence: 0.5067510596915261
+  Properties:
+    * area: 6.0
+    * mean_intensity: 3.068432569503784
+    * max_intensity: 5.623013019561768
+    * is_point_source: False
+- Extended Source 5 (via CONTROL, detector: NRS2)
+  Location: (21.0, 128.0)
+  Confidence: 0.5167131094180593
+  Properties:
+    * area: 5.0
+    * mean_intensity: 9.221254348754883
+    * max_intensity: 11.501879692077637
+    * is_point_source: False
+- Extended Source 6 (via CONTROL, detector: NRS2)
+  Location: (139.6, 225.7)
+  Confidence: 0.5113308096894689
+  Properties:
+    * area: 26.0
+    * mean_intensity: 4.838284015655518
+    * max_intensity: 8.325643539428711
+    * is_point_source: False
+- Extended Source 7 (via CONTROL, detector: NRS2)
+  Location: (127.4, 376.2)
+  Confidence: 0.5064407705424465
+  Properties:
+    * area: 9.0
+    * mean_intensity: 3.914093017578125
+    * max_intensity: 5.439903259277344
+    * is_point_source: False
+- Extended Source 8 (via CONTROL, detector: NRS2)
+  Location: (97.5, 427.9)
+  Confidence: 0.5131356110916474
+  Properties:
+    * area: 13.0
+    * mean_intensity: 4.736800193786621
+    * max_intensity: 9.390704154968262
+    * is_point_source: False
+- Extended Source 9 (via CONTROL, detector: NRS2)
+  Location: (39.0, 437.5)
+  Confidence: 0.5306914162455103
+  Properties:
+    * area: 8.0
+    * mean_intensity: 10.466243743896484
+    * max_intensity: 19.750844955444336
+    * is_point_source: False
+- Extended Source 10 (via CONTROL, detector: NRS2)
+  Location: (105.0, 451.5)
+  Confidence: 0.5161489329312745
+  Properties:
+    * area: 6.0
+    * mean_intensity: 7.4862895011901855
+    * max_intensity: 11.168944358825684
+    * is_point_source: False
+- Extended Source 11 (via CONTROL, detector: NRS2)
+  Location: (14.0, 490.5)
+  Confidence: 0.5228971645880134
+  Properties:
+    * area: 8.0
+    * mean_intensity: 9.679265022277832
+    * max_intensity: 15.151252746582031
+    * is_point_source: False
+- Low Significance Self-Similar Region (via FRACTAL, detector: NRS1)
+  Location: (277, 181)
+  Confidence: 0.4
+  Properties:
+    * fractal_dimension: 1.6882169020283577
+    * self_similarity_factor: 0.5536774283117624
+    * scale_invariance: 0.4195417457200441
+    * note: Low significance pattern, possibly due to noise
+- Low Significance Self-Similar Region (via FRACTAL, detector: NRS2)
+  Location: (364, 203)
+  Confidence: 0.4
+  Properties:
+    * fractal_dimension: 1.31756711688797
+    * self_similarity_factor: 0.515699660474758
+    * scale_invariance: 0.48996147236318116
+    * note: Low significance pattern, possibly due to noise
+
+Novel Patterns:
+---------------
+- Unusual Emission Region (via CONTROL, detector: NRS1)
+  Location: (154, 377)
+  Confidence: 0.65
+  Hypothesis: Possible high-redshift emission line galaxy or unusual spectral features
+  Properties:
+    * area: 19.0
+    * unusual_ratio: 2.6218021305866146
+    * signal_to_noise: 5.1328177978491905
+    * symmetry: asymmetric
+- Oscillatory Fractal Structure (via HYBRID, detector: NRS1)
+  Location: (179, 281)
+  Confidence: 0.78
+  Hypothesis: Potentially a system with both wave-like behavior and self-organizing properties; might be associated with unusual stellar phenomenon or complex gas dynamics
+  Properties:
+    * intensity_gradient: 0.9986645146930692
+    * fractal_dimension: 1.4022749499616456
+    * periodicity: 3.114791346094686
+    * asymmetry_factor: 0.16075608711647663
+    * multi_approach_significance: Pattern only detectable by combining intensity analysis with fractal metrics
+- Oscillatory Fractal Structure (via HYBRID, detector: NRS2)
+  Location: (321, 337)
+  Confidence: 0.78
+  Hypothesis: Potentially a system with both wave-like behavior and self-organizing properties; might be associated with unusual stellar phenomenon or complex gas dynamics
+  Properties:
+    * intensity_gradient: 1.7430650888317702
+    * fractal_dimension: 1.4189884754540296
+    * periodicity: 6.666563110490507
+    * asymmetry_factor: 0.37351793859911553
+    * multi_approach_significance: Pattern only detectable by combining intensity analysis with fractal metrics

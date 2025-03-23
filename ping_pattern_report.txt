@@ -1,0 +1,36 @@
+JWST Ping Pattern Analysis Report
+================================
+
+Total ping patterns detected: 2202
+Detectors analyzed: 2
+
+Detection Approaches:
+--------------------
+CONTROL: 1 pings (0.0%)
+FRACTAL: 2201 pings (100.0%)
+
+Approach Comparison:
+------------------
+
+CONTROL approach (1 pings):
+  Average confidence score: 0.8843 (std: 0.0000)
+  Average symmetry: 0.4226 (std: 0.0000)
+  Central peak ratio: 1.00
+  CONTROL approach focuses on detection through traditional image processing and statistical thresholding,
+  identifying significant intensity peaks against background noise.
+
+
+FRACTAL approach (2201 pings):
+  Average confidence score: 0.7021 (std: 0.0133)
+  Average symmetry: 0.9958 (std: 0.0490)
+  Central peak ratio: 1.00
+  FRACTAL approach leverages multi-scale analysis to identify self-similar patterns
+  and scale-invariant structures in the data.
+
+
+Comparative observations:
+- CONTROL approach had the highest average confidence scores (0.8843)
+- CONTROL approach identified patterns with the strongest central peaks
+- CONTROL approach exclusively detected 1 ping patterns not found by other approaches
+- FRACTAL approach exclusively detected 1 ping patterns not found by other approaches
+

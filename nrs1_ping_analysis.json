@@ -1,0 +1,50 @@
+{
+  "count": 1,
+  "detector": "nrs1",
+  "approaches_used": [
+    "CONTROL"
+  ],
+  "approaches_count": {
+    "CONTROL": 1
+  },
+  "ping_characteristics": [
+    {
+      "has_central_peak": true,
+      "rapid_falloff": 0.9991546854143962,
+      "symmetry": 0.4226497411727905,
+      "peak_intensity": 1.0,
+      "fwhm": 3,
+      "score": 0.8842763538588769,
+      "approach": "CONTROL"
+    }
+  ],
+  "ping_details": {
+    "locations": [
+      [
+        463,
+        1214
+      ]
+    ],
+    "scores": [
+      0.8842763538588769
+    ]
+  },
+  "ping_types": {
+    "strong_central": 0,
+    "asymmetric": 0,
+    "diffuse": 0,
+    "other": 1
+  },
+  "score": {
+    "mean": 0.8842763538588769,
+    "std": 0.0
+  },
+  "symmetry": {
+    "mean": 0.4226497411727905,
+    "std": 0.0
+  },
+  "spatial": {
+    "points_count": 1,
+    "potential_source_regions": []
+  }
+}

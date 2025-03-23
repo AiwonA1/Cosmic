@@ -1,0 +1,33 @@
+JWST Detector Pattern Comparison
+===============================
+
+NRS1 Detector: 5 total patterns
+  Regular patterns: 3
+  Novel patterns: 2
+
+NRS2 Detector: 13 total patterns
+  Regular patterns: 12
+  Novel patterns: 1
+
+Pattern Type Distribution by Detector:
+------------------------------------
+Extended Source:
+  NRS1: 2
+  NRS2: 9
+
+Low Significance:
+  NRS1: 1
+  NRS2: 1
+
+Oscillatory Fractal:
+  NRS1: 1
+  NRS2: 1
+
+Point Source:
+  NRS1: 0
+  NRS2: 2
+
+Unusual Emission:
+  NRS1: 1
+  NRS2: 0
+

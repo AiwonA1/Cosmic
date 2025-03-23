@@ -1,0 +1,35 @@
+{
+  "analysis_id": "59708808-4232-48bb-a8a7-a59c52112a6b",
+  "timestamp_start": "2025-03-23T10:58:28.360513",
+  "input_files": [
+    "/Users/macbook/Downloads/MAST_2025-03-23T14_24_12.692Z/MAST_2025-03-23T14_24_12.692Z/JWST/jw02736007001_03101_00001_nrs1_cal.fits",
+    "/Users/macbook/Downloads/MAST_2025-03-23T14_24_12.692Z/MAST_2025-03-23T14_24_12.692Z/JWST/jw02736007001_03101_00001_nrs2_cal.fits"
+  ],
+  "key_accomplishments": [
+    "Analyzed nrs1"
+  ],
+  "metrics": {},
+  "detected_patterns": [],
+  "novel_patterns": [],
+  "ping_patterns": [
+    {
+      "location": [
+        463,
+        1214
+      ],
+      "confidence": 0.8842763538588769,
+      "detector": "nrs1",
+      "extension": "SCI",
+      "approach": "CONTROL",
+      "characteristics": {
+        "has_central_peak": true,
+        "rapid_falloff": 0.9991546854143962,
+        "symmetry": 0.4226497411727905,
+        "peak_intensity": 1.0,
+        "fwhm": 3,
+        "score": 0.8842763538588769,
+        "approach": "CONTROL"
+      }
+    }
+  ]
+}
